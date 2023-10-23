@@ -3,7 +3,7 @@ import Facebook from '../assets/icons/face.svg'
 import LinkedIn from '../assets/icons/link.svg'
 import { footNavigation } from './data'
 
-
+ 
 const Footer = () => {
     return (
         <footer className="bg-secondary" id='footer'>

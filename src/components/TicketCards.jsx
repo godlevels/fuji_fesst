@@ -19,7 +19,7 @@ const TicketCards = ({color, name, price, desc, features, btn,}) => {
 
             <ul className="mb-10 flex flex-col gap-y-2">
                 {features.map((feat) => (
-                    <li className="flex items-center gap-x-4">
+                    <li key={feat} className="flex items-center gap-x-4">
                         <MdCheckCircleOutline size={20} />
                         <span>{feat}</span>
                     </li>

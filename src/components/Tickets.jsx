@@ -6,7 +6,7 @@ const Tickets = () => {
         <>
             <section className="flex flex-col items-center bg-inherit p-4">
                 <div className="mb-2 mt-12 text-center">
-                    <h1 className="mb-4 text-7xl font-black text-secondary">Pricing</h1>
+                    <h1 className="mb-4 text-4xl md:text-7xl font-black text-secondary">Pricing</h1>
                     <p className="text-lg text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam magnam obcaecati id doloribus veritatis aliquam.</p>
                 </div>
 

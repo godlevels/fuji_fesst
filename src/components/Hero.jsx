@@ -1,6 +1,6 @@
 import Nav from './Nav'
-import Hero_Img from "../../public/images/img.png"
-import Hero_txt from "../../public/images/ibd.png"
+import Hero_Img from "../assets/images/img.png"
+import Hero_txt from "../assets/images/ibd.png"
 
 const Hero = () => {
     return (

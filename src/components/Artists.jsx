@@ -9,7 +9,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div
-      onClick={onClick}
+      onClick={onClick} 
       className="absolute top-[50%] left-0 text-secondary cursor-pointer"
     >
       <MdKeyboardArrowLeft size={50} />
@@ -44,7 +44,7 @@ const Artists = () => {
     <>
       <section>
         <div className="mb-2 mt-12 text-center">
-          <h1 className="mb-4 text-7xl font-black text-secondary">Artists</h1>
+          <h1 className="mb-4 text-4xl md:text-7xl font-black text-secondary">Artists</h1>
           <p className="text-lg text-secondary">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
             magnam obcaecati id doloribus veritatis aliquam.
@@ -55,7 +55,7 @@ const Artists = () => {
             {hero_two.map((item) => (
               <div key={item.id} className="box relative">
                 <img
-                  src={item.cover}
+                  src={item.image}
                   alt="cover"
                   className="w-full h-full object-cover"
                 />

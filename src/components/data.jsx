@@ -1,3 +1,12 @@
+import Artist1Img from "../assets/images/c1.jpg"
+import Artist2Img from "../assets/images/c2.jpg"
+import Artist3Img from "../assets/images/c3.jpg"
+import Artist4Img from "../assets/images/sun.jpeg"
+import Artist5Img from "../assets/images/sun.jpeg"
+import Artist6Img from "../assets/images/sun.jpeg"
+import Artist7Img from "../assets/images/sun.jpeg"
+
+
 export const navLink = [
     {
         id: 1,
@@ -18,7 +27,7 @@ export const navLink = [
         id: 3,
         name: "Partners",
         path: "partners"
-    },
+    }, 
 ]
 
 export const hero_one = [
@@ -26,19 +35,19 @@ export const hero_one = [
         id: 1,
         name: "New",
         tag: "Novella",
-        cover: "../images/c1.jpg"
+        image: <Artist1Img />,
     },
     {
         id: 2,
         name: "New Music",
         tag: "Novella",
-        cover: "../images/c2.jpg"
+        image: <Artist2Img />,
     },
     {
         id: 3,
         name: "Old Navy",
         tag: "Novella",
-        cover: "../images/c3.jpg"
+        image: <Artist3Img />,
     },
 ] 
 
@@ -47,25 +56,25 @@ export const hero_two = [
         id: 1,
         name: "King",
         tag: "Sunny Ade",
-        cover: "../images/sun.jpeg"
+        image: <Artist4Img />,
     },
     {
         id: 2,
         name: "King",
         tag: "Sunny Ade",
-        cover: "../images/sun.jpeg"
+        image: <Artist5Img />,
     },
     {
         id: 3,
         name: "King",
         tag: "Sunny Ade",
-        cover: "../images/sun.jpeg"
+        image: <Artist6Img />,
     },
     {
         id: 4,
         name: "King",
         tag: "Sunny Ade",
-        cover: "../images/sun.jpeg"
+        image: <Artist7Img />,
     },
 ] 
 
