@@ -1,11 +1,11 @@
-import Artist1Img from "../assets/images/c1.jpg"
-import Artist2Img from "../assets/images/c2.jpg"
-import Artist3Img from "../assets/images/c3.jpg"
-import Artist4Img from "../assets/images/sun.jpeg"
-import Artist5Img from "../assets/images/sun.jpeg"
-import Artist6Img from "../assets/images/sun.jpeg"
-import Artist7Img from "../assets/images/sun.jpeg"
-
+import Art1 from "../assets/Group9.png"
+import Art2 from "../assets/Group10.png"
+import Art3 from "../assets/Group11.png"
+import Art4 from "../assets/Group12.png"
+import Art5 from "../assets/Group13.png"
+import Art6 from "../assets/ult.jpg"
+import Art7 from "../assets/ayu.jpg"
+import Art8 from "../assets/cur.jpg"
 
 export const navLink = [
     {
@@ -35,19 +35,19 @@ export const hero_one = [
         id: 1,
         name: "New",
         tag: "Novella",
-        image: <Artist1Img />,
+        cover: Art6
     },
     {
         id: 2,
         name: "New Music",
         tag: "Novella",
-        image: <Artist2Img />,
+        cover: Art7
     },
     {
         id: 3,
         name: "Old Navy",
         tag: "Novella",
-        image: <Artist3Img />,
+        cover: Art8
     },
 ] 
 
@@ -56,25 +56,31 @@ export const hero_two = [
         id: 1,
         name: "King",
         tag: "Sunny Ade",
-        image: <Artist4Img />,
+        cover: Art1
     },
     {
         id: 2,
         name: "King",
         tag: "Sunny Ade",
-        image: <Artist5Img />,
+        cover: Art2
     },
     {
         id: 3,
         name: "King",
         tag: "Sunny Ade",
-        image: <Artist6Img />,
+        cover: Art3
     },
     {
         id: 4,
         name: "King",
         tag: "Sunny Ade",
-        image: <Artist7Img />,
+        cover: Art4
+    },
+    {
+        id: 4,
+        name: "King",
+        tag: "Sunny Ade",
+        cover: Art5
     },
 ] 
 

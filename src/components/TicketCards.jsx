@@ -8,7 +8,7 @@ const TicketCards = ({color, name, price, desc, features, btn,}) => {
             <div>
                 {price ? (
                     <>
-                        <div>{price}</div>
+                        <div className="font-bold text-5xl my-4">{price}</div>
                     </>
                 ) : (
                     "Free"
