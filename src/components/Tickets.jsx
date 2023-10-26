@@ -4,7 +4,7 @@ import TicketCards from "./TicketCards"
 const Tickets = () => {
     return (
         <>
-            <section className="flex flex-col items-center bg-inherit p-4">
+            <section className="flex flex-col items-center bg-inherit p-4" id="tickets">
                 <div className="mb-2 text-center">
                     <h1 className="mb-4 text-4xl md:text-7xl font-black text-secondary">Tickets</h1>
                     <p className="text-lg text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore, iure alias doloremque saepe reprehenderit.</p>

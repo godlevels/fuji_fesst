@@ -43,7 +43,7 @@ const Artists = () => {
   return (
     <>
       <section>
-        <div className="mb-2 mt-12 text-center">
+        <div className="mb-2 mt-12 text-center" id="artistes">
           <h1 className="mb-4 text-4xl md:text-7xl font-black text-secondary">Expected Artistes</h1>
           <p className="text-lg text-secondary">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam

@@ -1,7 +1,7 @@
 
 const Venue = () => {
     return (
-        <section className='bg-gradient-to-l from-[#DD8145] from-70% to-[#A93837] rounded-md'>
+        <section className='bg-gradient-to-l from-[#DD8145] from-70% to-[#A93837] rounded-md' id="venue">
             <div className='md:mx-auto md:container text-white flex flex-col gap-y-16 items-center text-center py-6 w-full'>
                 <div className="leading-[50px]">
                     <h1 className="text-[30px] md:text-[50px] font-bold">Venue:</h1>

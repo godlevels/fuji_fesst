@@ -15,7 +15,7 @@ const sponsorLogos = [
   ];
 const Sponsors = () => {
     return (
-        <section className="bg-gray-100 py-10 flex flex-col items-center justify-center">
+        <section className="bg-gray-100 py-10 flex flex-col items-center justify-center" id='sponsors'>
         <h2 className="mb-4 text-4xl md:text-7xl font-black text-secondary">Our Sponsors</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-3">
           {sponsorLogos.map((logo, index) => (

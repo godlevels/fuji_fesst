@@ -11,7 +11,7 @@ export const navLink = [
     {
         id: 1,
         name: "Artists",
-        path: "artists"
+        path: "artistes"
     },
     {
         id: 2,
@@ -25,8 +25,8 @@ export const navLink = [
     },
     {
         id: 3,
-        name: "Partners",
-        path: "partners"
+        name: "Sponsors",
+        path: "sponsors"
     }, 
 ]
 

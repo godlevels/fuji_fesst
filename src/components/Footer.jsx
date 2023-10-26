@@ -6,7 +6,7 @@ import { footNavigation } from './data'
  
 const Footer = () => {
     return (
-        <footer className="bg-secondary" id='footer'>
+        <footer className="bg-secondary" id='contact'>
             <div className="container mx-auto py-4 font-primary">
                 <div className="flex flex-col gap-y-5 lg:flex-row lg:justify-between items-center">
                     <div className='flex flex-col md:flex-row gap-x-6'>
