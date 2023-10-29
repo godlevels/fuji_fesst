@@ -1,7 +1,8 @@
-const heroImage = new URL('../assets/img.png', import.meta.url).href
 import Nav from './Nav'
 // import heroImage from "/src/assets/img.png"
-import Hero_txt from "../assets/ibd.png"
+const heroImage = new URL('../assets/img.png', import.meta.url).href
+const Hero_txt = new URL('../assets/ibd.png', import.meta.url).href
+// import Hero_txt from "../assets/ibd.png"
 
 const Hero = () => {
     return (

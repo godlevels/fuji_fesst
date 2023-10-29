@@ -1,7 +1,8 @@
 import { useState } from "react"
 import { CgMenuRight } from 'react-icons/cg'
 import { Link } from "react-scroll"
-import Logo from "../assets/gradient.png"
+const Logo = new URL('../assets/gradient.png', import.meta.url).href
+// import Logo from "../assets/gradient.png"
 import { navLink } from "./data"
 
 const Nav = () => {
