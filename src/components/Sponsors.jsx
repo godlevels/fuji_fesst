@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import sponsor1 from '../assets/1.jpg';
 import sponsor2 from '../assets/2.jpg';
 import sponsor3 from '../assets/3.jpg';
@@ -28,10 +29,11 @@ const Sponsors = () => {
             </div>
           ))}
         </div>
-
         <div className='flex flex-col gap-y-5 items-center justify-center mt-6'>
             <h3 className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, quaerat <br /> iure molestias enim maxime beatae.</h3>
-            <button className='bg-primary border border-primary bg-inherit text-white text-[1rem] font-medium rounded-lg px-7 py-3 hover:bg-primary hover:text-white ease-linear duration-200'>Become a Sponsor</button>
+            <a href="https://wa.link/akus0p" target="_blank">
+              <button className='bg-primary border border-primary bg-inherit text-white text-[1rem] font-medium rounded-lg px-7 py-3 hover:bg-primary hover:text-white ease-linear duration-200'>Become a Sponsor</button>
+            </a>
         </div>
       </section>
     )

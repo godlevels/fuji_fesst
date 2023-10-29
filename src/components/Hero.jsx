@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import Nav from './Nav'
 import heroImage from "../assets/img.png"
 import Hero_txt from "../assets/ibd.png"
@@ -17,7 +18,9 @@ const Hero = () => {
 
                 <div className='flex gap-x-5 justify-center items-center mt-5'>
                   <button className='bg-inherit border border-primary text-white text-[1rem] font-medium rounded-lg px-7 py-3 hover:bg-primary hover:text-black ease-linear duration-200'>Get Ticket</button>
-                  <button className='bg-primary border border-primary bg-inherit text-black text-[1rem] font-medium rounded-lg px-7 py-3 hover:bg-inherit hover:text-white ease-linear duration-200'>Sponsor</button>
+                  <a href="https://wa.link/akus0p" target="_blank">
+                    <button className='bg-primary border border-primary bg-inherit text-black text-[1rem] font-medium rounded-lg px-7 py-3 hover:bg-inherit hover:text-white ease-linear duration-200'>Sponsor</button>
+                  </a>
                 </div>
               </div>
             </div>
