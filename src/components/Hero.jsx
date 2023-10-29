@@ -1,5 +1,5 @@
 import Nav from './Nav'
-// import heroImage from "../assets/img.png"
+import heroImage from "/src/assets/img.png"
 import Hero_txt from "../assets/ibd.png"
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
           <Nav />
 
           <div className='relative'>
-            {/* <img src={heroImage} alt="" className='h-[60vh] md:h-screen w-full object-cover' /> */}
+            <img src={heroImage} alt="" className='h-[60vh] md:h-screen w-full object-cover' />
 
             <div className='absolute inset-0 flex flex-col justify-center items-center mt-[5rem] md:mt-[3rem]'>
               <img src={Hero_txt} alt="" className='w-[10rem] md:w-[25rem] md:mb-[-3rem]'/>
