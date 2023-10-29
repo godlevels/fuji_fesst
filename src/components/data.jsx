@@ -24,7 +24,7 @@ export const navLink = [
         path: "contact"
     },
     {
-        id: 3,
+        id: 4,
         name: "Sponsors",
         path: "sponsors"
     }, 
@@ -77,7 +77,7 @@ export const hero_two = [
         cover: Art4
     },
     {
-        id: 4,
+        id: 5,
         name: "King",
         tag: "Sunny Ade",
         cover: Art5
