@@ -1,11 +1,11 @@
-import Art1 from "../assets/Group9.png"
-import Art2 from "../assets/Group10.png"
-import Art3 from "../assets/Group11.png"
-import Art4 from "../assets/Group12.png"
-import Art5 from "../assets/Group13.png"
-import Art6 from "../assets/ult.jpg"
-import Art7 from "../assets/ayu.jpg"
-import Art8 from "../assets/cur.jpg"
+import Art1 from "../../public/assets/Group9.png"
+import Art2 from "../../public/assets/Group10.png"
+import Art3 from "../../public/assets/Group11.png"
+import Art4 from "../../public/assets/Group12.png"
+import Art5 from "../../public/assets/Group13.png"
+import Art6 from "../../public/assets/ult.jpg"
+import Art7 from "../../public/assets/ayu.jpg"
+import Art8 from "../../public/assets/cur.jpg"
 
 export const navLink = [
     {

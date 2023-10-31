@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-no-target-blank */
-import sponsor1 from '../assets/1.jpg';
-import sponsor2 from '../assets/2.jpg';
-import sponsor3 from '../assets/3.jpg';
-import sponsor4 from '../assets/4.jpg';
-import sponsor5 from '../assets/5.jpg';
-import sponsor6 from '../assets/6.jpg';
+import sponsor1 from '../../public/assets/1.jpg';
+import sponsor2 from '../../public/assets/2.jpg';
+import sponsor3 from '../../public/assets/3.jpg';
+import sponsor4 from '../../public/assets/4.jpg';
+import sponsor5 from '../../public/assets/5.jpg';
+import sponsor6 from '../../public/assets/6.jpg';
 
 const sponsorLogos = [
     sponsor1,

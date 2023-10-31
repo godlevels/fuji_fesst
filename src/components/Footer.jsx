@@ -1,6 +1,6 @@
-import Twitter from '../assets/icons/twit.svg'
-import Facebook from '../assets/icons/face.svg'
-import LinkedIn from '../assets/icons/link.svg'
+import Twitter from '../../public/assets/icons/twit.svg'
+import Facebook from '../../public/assets/icons/face.svg'
+import LinkedIn from '../../public/assets/icons/link.svg'
 import { footNavigation } from './data'
 
  
