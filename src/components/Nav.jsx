@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { CgMenuRight } from 'react-icons/cg'
 import { Link } from "react-scroll"
-const Logo = new URL('../assets/gradient.png', import.meta.url).href
+const navLogo = new URL('/assets/Gradient.png', import.meta.url).href
 // import Logo from "../assets/gradient.png"
 import { navLink } from "./data"
 
@@ -13,7 +13,7 @@ const Nav = () => {
         <header className="fixed top-0 left-0 z-50 w-screen h-[10vh] md:shadow-sm bg-white">
             <div className="hidden md:flex items-center justify-between px-7 p-2">
                 <div className="flex items-center">
-                    <img src={Logo} alt="logo" width='70px' height='70px' />
+                    <img src={navLogo} alt="logo" width='70px' height='70px' />
                 </div>
 
                 <div className="menu">
@@ -36,7 +36,7 @@ const Nav = () => {
             {/* mobileMenu */}
             <div className="flex items-center justify-between md:hidden h-full pl-2 pr-8">
                 <div className="flex items-center">
-                    <img src={Logo} alt="logo" width='70px' height='70px' />
+                    <img src={navLogo} alt="logo" width='70px' height='70px' />
                 </div>
                 <div>
                     {mobileNav && (
