@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
       className="absolute top-[50%] left-0 text-secondary cursor-pointer"
     >
       <MdKeyboardArrowLeft size={50} />
-    </div>
+    </div> 
   );
 }
 
@@ -64,27 +64,6 @@ const Artists = () => {
               </div>
             ))}
           </div>
-
-          {/* <div className="w-full h-full md:w-1/2">
-            <Slider {...settings}>
-              {hero_one.map((item) => (
-                <div
-                  key={item.id}
-                  className="box relative h-[92vh] sm:mt-16 w-full"
-                >
-                  <img
-                    src={item.cover}
-                    alt="cover"
-                    className="md:w-full h-[60rem] object-cover"
-                  />
-                  <div className="text absolute top-0 left-0 text-white p-5">
-                    <h3 className="text-xl font-semibold">{item.name}</h3>
-                    <span className="text-gray-400">{item.tag}</span>
-                  </div>
-                </div>
-              ))}
-            </Slider>
-          </div> */}
         </div>
       </section>
     </>

@@ -1,11 +1,11 @@
-import Art1 from "../../public/assets/Group9.png"
-import Art2 from "../../public/assets/Group10.png"
-import Art3 from "../../public/assets/Group11.png"
-import Art4 from "../../public/assets/Group12.png"
-import Art5 from "../../public/assets/Group13.png"
-import Art6 from "../../public/assets/ult.jpg"
-import Art7 from "../../public/assets/ayu.jpg"
-import Art8 from "../../public/assets/cur.jpg"
+import Art1 from "/assets/Group9.png"
+import Art2 from "/assets/Group10.png"
+import Art3 from "/assets/Group11.png"
+import Art4 from "/assets/Group12.png"
+import Art5 from "/assets/Group13.png"
+import Art6 from "/assets/ult.jpg"
+import Art7 from "/assets/ayu.jpg"
+import Art8 from "/assets/cur.jpg"
 
 export const navLink = [
     {
@@ -54,32 +54,32 @@ export const hero_one = [
 export const hero_two = [
     {
         id: 1,
-        name: "King",
-        tag: "Sunny Ade", 
+        name: "Dele",
+        tag: "Ayuba", 
         cover: Art1
     },
     {
         id: 2,
-        name: "King",
-        tag: "Sunny Ade",
+        name: "KS1",
+        tag: "Malaika",
         cover: Art2
     },
     {
         id: 3,
-        name: "King",
-        tag: "Sunny Ade",
+        name: "Taiye",
+        tag: "Currency",
         cover: Art3
     },
     {
         id: 4,
-        name: "King",
-        tag: "Sunny Ade",
+        name: "Alabi",
+        tag: "Pasuma",
         cover: Art4
     },
     {
         id: 5,
-        name: "King",
-        tag: "Sunny Ade",
+        name: "K1",
+        tag: "De Ultimate",
         cover: Art5
     },
 ] 
