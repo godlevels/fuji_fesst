@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
-import Slider from "react-slick";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import { hero_one, hero_two } from "./data";
+import { hero_two } from "./data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -42,16 +41,15 @@ const Artists = () => {
 
   return (
     <>
-      <section>
-        <div className="mb-2 mt-12 text-center" id="artistes">
+      <section className="mx-auto container">
+        <div className="mb-2 mt-12 text-center flex flex-col items-center" id="artistes">
           <h1 className="mb-4 text-4xl md:text-7xl font-black text-secondary">Expected Artistes</h1>
-          <p className="text-lg text-secondary">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
-            magnam obcaecati id doloribus veritatis aliquam.
+          <p className="text-lg text-secondary md:w-[30rem]">
+            Here are some of the fuji artistes we are expecting at the event. Be rest assured we have curated an event you will enjoy and remember 🥰😍
           </p>
         </div>
-        <div className="w-full h-[200vh] md:h-[120vh] flex gap-y-4 flex-col md:flex-row md:justify-between">
-          <div className="w-full md:h-[36.5rem] md:w-1/2 grid grid-cols-2 md:grid-cols-3 md:grid-rows-3 mt-16">
+        <div className="w-full h-[90vh] md:h-[50vh] mt-10 md:mt-14">
+          <div className="w-full md:h-[36.5rem] grid grid-cols-2 md:grid-cols-5 gap-y-6 gap-x-4 md:gap-y-0 md:gap-x-0">
             {hero_two.map((item) => (
               <div key={item.id} className="box relative">
                 <img
@@ -59,7 +57,7 @@ const Artists = () => {
                   alt="cover"
                   className="md:w-[12rem] md:h-[12rem] object-cover"
                 />
-                <div className="text absolute bottom-1 left-10 md:bottom-7 md:left-6 text-white p-5 flex flex-col justify-center text-center">
+                <div className="text absolute bottom-[-.4rem] left-8 md:bottom-[25rem] md:left-10 text-white p-5 flex flex-col justify-center text-center">
                   <h3 className="text-xl font-semibold">{item.name}</h3>
                   <span className="text-gray-400">{item.tag}</span>
                 </div>
@@ -67,7 +65,7 @@ const Artists = () => {
             ))}
           </div>
 
-          <div className="w-full h-full md:w-1/2">
+          {/* <div className="w-full h-full md:w-1/2">
             <Slider {...settings}>
               {hero_one.map((item) => (
                 <div
@@ -86,7 +84,7 @@ const Artists = () => {
                 </div>
               ))}
             </Slider>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

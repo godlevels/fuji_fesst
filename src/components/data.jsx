@@ -55,7 +55,7 @@ export const hero_two = [
     {
         id: 1,
         name: "King",
-        tag: "Sunny Ade",
+        tag: "Sunny Ade", 
         cover: Art1
     },
     {

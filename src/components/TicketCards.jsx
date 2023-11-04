@@ -2,11 +2,11 @@ import { MdCheckCircleOutline } from "react-icons/md"
 
 const TicketCards = ({color, name, price, desc, features, btn,}) => {
     return (
-        <div style={{ backgroundColor: color }} className="flex min-h-[428px] w-[320px] flex-col rounded-3xl p-8 shadow-lg">
+        <div style={{ backgroundColor: color }} className="flex min-h-[490px] w-[320px] flex-col rounded-3xl p-8 shadow-lg">
             <h2 className="mb-5 text-4xl font-medium">{name}</h2>
 
             <div>
-                {price ? (
+                {price ? ( 
                     <>
                         <div className="font-bold text-5xl my-4">{price}</div>
                     </>
