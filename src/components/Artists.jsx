@@ -1,44 +1,9 @@
 /* eslint-disable react/prop-types */
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { hero_two } from "./data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function SampleNextArrow(props) {
-  const { onClick } = props;
-  return (
-    <div
-      onClick={onClick} 
-      className="absolute top-[50%] left-0 text-secondary cursor-pointer"
-    >
-      <MdKeyboardArrowLeft size={50} />
-    </div> 
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { onClick } = props;
-  return (
-    <div
-      onClick={onClick}
-      className="absolute top-[50%] right-0 z-10 text-primary cursor-pointer"
-    >
-      <MdKeyboardArrowRight size={50} />
-    </div>
-  );
-}
-
 const Artists = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-  };
-
   return (
     <>
       <section className="mx-auto container">
@@ -49,7 +14,7 @@ const Artists = () => {
           </p>
         </div>
         <div className="w-full h-[90vh] md:h-[50vh] mt-10 md:mt-14">
-          <div className="w-full md:h-[36.5rem] grid grid-cols-2 md:grid-cols-5 gap-y-6 gap-x-4 md:gap-y-0 md:gap-x-0">
+          <div className="w-full md:h-[36.5rem] grid grid-cols-2 md:grid-cols-6 gap-y-6 gap-x-4 md:gap-y-0 md:gap-x-0">
             {hero_two.map((item) => (
               <div key={item.id} className="box relative">
                 <img
