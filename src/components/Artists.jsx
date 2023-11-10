@@ -59,7 +59,7 @@ const Artists = () => {
                 />
                 <div className="text absolute bottom-[-.4rem] left-8 md:bottom-[25rem] md:left-10 text-white p-5 flex flex-col justify-center text-center">
                   <h3 className="text-xl font-semibold">{item.name}</h3>
-                  <span className="text-gray-400">{item.tag}</span>
+                  <span className="text-white">{item.tag}</span>
                 </div>
               </div>
             ))}

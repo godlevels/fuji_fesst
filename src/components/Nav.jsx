@@ -37,7 +37,7 @@ const Nav = () => {
             <div className="flex items-center justify-between md:hidden h-full pl-2 pr-8">
                 <div className="flex items-center">
                     <img src={navLogo} alt="logo" width='70px' height='70px' />
-                </div>
+                </div> 
                 <div>
                     {mobileNav && (
                         <div className="bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-16 left-[10rem] right-0 h-screen w-full">

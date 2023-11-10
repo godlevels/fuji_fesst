@@ -3,6 +3,7 @@ import Art2 from "/assets/Group10.png"
 import Art3 from "/assets/Group11.png"
 import Art4 from "/assets/Group12.png"
 import Art5 from "/assets/Group13.png"
+import Art6 from "/assets/Group14.png"
 import Art6 from "/assets/ult.jpg"
 import Art7 from "/assets/ayu.jpg"
 import Art8 from "/assets/cur.jpg"
@@ -80,6 +81,12 @@ export const hero_two = [
         id: 5,
         name: "K1",
         tag: "De Ultimate",
+        cover: Art5
+    },
+    {
+        id: 6,
+        name: "Saheed",
+        tag: "Osupa",
         cover: Art5
     },
 ] 

@@ -10,7 +10,7 @@ const Venue = () => {
                 </div>
                 <div className="leading-[50px]">
                     <h1 className="text-[30px] md:text-[50px] font-bold">Date:</h1>
-                    <p className="capitalize leading-8 md:text-[30px] font-bold">Saturday, 24th February, 2024.
+                    <p className="capitalize leading-8 md:text-[30px] font-bold">Saturday, 24th February, 2024. <br /> 10 A.M
 </p>
                 </div>
             </div>

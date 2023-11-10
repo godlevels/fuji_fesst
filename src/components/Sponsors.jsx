@@ -30,7 +30,7 @@ const Sponsors = () => {
           ))}
         </div>
         <div className='flex flex-col gap-y-5 items-center justify-center mt-6'>
-            <h3 className='text-center text-lg'>For enquiries and sponsorship, click the button below <br />or <br />Email - Ibadanfujifest@gmail.com </h3>
+            <h3 className='text-center text-lg'>For enquiries and sponsorship, call or send us a message on WhatsApp 07062380867 <br />or <br />Email - Ibadanfujifest@gmail.com </h3>
             <a href="https://wa.link/akus0p" target="_blank">
               <button className='bg-primary border border-primary bg-inherit text-white text-[1rem] font-medium rounded-lg px-7 py-3 hover:bg-primary hover:text-white ease-linear duration-200'>Become a Sponsor</button>
             </a>
