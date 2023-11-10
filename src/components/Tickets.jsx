@@ -16,7 +16,7 @@ const Tickets = () => {
                         <TicketCards color="#ffffff" name="Basic" price="2K" features={["General entry", "A seat", "Raffle draw"]} btn="Get Ticket" />
                     </Link>
                     <Link to="https://paystack.com/pay/Ibff2">
-                        <TicketCards color="#ffffff" name="Standard" price="20K" features={["General entry - Front row seat", "Raffle draw", "1 fuji fest aso ebi", "", "complimentary drinks",]} btn="Get Ticket" />
+                        <TicketCards color="#ffffff" name="Standard" price="20K" features={["General entry - Front row seat", "Raffle draw", "1 fuji fest aso ebi", "complimentary drinks",]} btn="Get Ticket" />
                     </Link>
                     <Link to="https://paystack.com/pay/ibff3">
                         <TicketCards color="#ffffff" name="VIP Table" price="200K" features={["Quick entry", "4 premium seats", "Raffle draw", "complimentary drinks", "4 fujifest aso ebi",]} btn="Buy Table" />
