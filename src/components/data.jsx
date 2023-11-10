@@ -3,10 +3,10 @@ import Art2 from "/assets/Group10.png"
 import Art3 from "/assets/Group11.png"
 import Art4 from "/assets/Group12.png"
 import Art5 from "/assets/Group13.png"
-import Art6 from "/assets/Group14.png"
 import Art6 from "/assets/ult.jpg"
 import Art7 from "/assets/ayu.jpg"
 import Art8 from "/assets/cur.jpg"
+import Art9 from "/assets/Group14.png"
 
 export const navLink = [
     {
@@ -87,7 +87,7 @@ export const hero_two = [
         id: 6,
         name: "Saheed",
         tag: "Osupa",
-        cover: Art6
+        cover: Art9
     },
 ] 
 
