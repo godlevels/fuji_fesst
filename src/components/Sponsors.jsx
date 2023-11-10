@@ -2,6 +2,7 @@
 import sponsor1 from '/assets/one.jpg';
 import sponsor2 from '/assets/two.jpg';
 import sponsor3 from '/assets/three.jpg';
+import sponsor4 from '/assets/four.jpg';
 // import sponsor4 from '/assets/4.jpg';
 // import sponsor5 from '/assets/5.jpg';
 // import sponsor6 from '/assets/6.jpg';
@@ -10,6 +11,7 @@ const sponsorLogos = [
     sponsor1,
     sponsor2,
     sponsor3,
+    sponsor4,
     // sponsor4,
     // sponsor5,
     // sponsor6,
