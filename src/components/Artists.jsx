@@ -30,7 +30,7 @@ const Artists = () => {
             ))}
           </div>
         </div>
-        <h2 className="text-secondary text-center font-semibold mt-[-10rem] md:mt-[-6rem] mb-20">And many others...</h2>
+        <h2 className="text-secondary text-center font-semibold mt-[-4rem] md:mt-[-6rem] mb-20">And many others...</h2>
       </section>
     </>
   );
