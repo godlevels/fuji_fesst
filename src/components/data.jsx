@@ -87,7 +87,7 @@ export const hero_two = [
         id: 6,
         name: "Saheed",
         tag: "Osupa",
-        cover: Art5
+        cover: Art6
     },
 ] 
 
