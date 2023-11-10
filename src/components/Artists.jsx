@@ -19,7 +19,7 @@ const Artists = () => {
               <div key={item.id} className="box relative">
                 <img
                   src={item.cover}
-                  alt="cover"
+                  alt="cover" 
                   className="md:w-[12rem] md:h-[12rem] object-cover"
                 />
                 <div className="text absolute bottom-[-.4rem] left-8 md:bottom-[25rem] md:left-10 text-white p-5 flex flex-col justify-center text-center">

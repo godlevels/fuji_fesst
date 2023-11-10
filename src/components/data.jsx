@@ -31,7 +31,7 @@ export const navLink = [
 export const hero_two = [
     {
         id: 1,
-        name: "Dele",
+        name: "Adewale",
         tag: "Ayuba", 
         cover: Art1
     },
